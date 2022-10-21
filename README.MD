@@ -29,6 +29,25 @@
 |<img src = "img/Apples11.png"> |  |
 |<img src = "img/Apples08.png"> |  |
 
+
+## Python-програма
+```python
+import random
+
+while True:
+    a = random.randint(1, 10)
+    strn = ''
+    for i in range (a):
+        strn +='.'
+    si = input("Please, enter number of points. For stop enter .\n"+strn+"\n")
+    if si == '.':
+        break
+    if a==int(si):
+        print("true")
+    else:
+        print("false")
+```
+<img src = "img/numbers13.gif">
 ## Порівняння груп предметів
 Важливим рішенням є порівняння кількості елементів в декілько групах.  Для цього використовується знак менше (<), більше (>) та дорівнює (=).  
 Знак має бути направлений меншим кінцем до групи в якій менше елементів.
