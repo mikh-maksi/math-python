@@ -13,6 +13,8 @@ def expression(add1,add2):
     # First digit
     c.create_text(30, 35, text=add1, 
                 justify=CENTER, font="Verdana 40")
+    c.after(10000)
+    c.update()
     # Circle for first digit
     c.create_oval(15+add1*30, 85, 25+add1*30, 75, outline="#f00",
                 fill="#fff", width=2)
@@ -88,6 +90,8 @@ def coordinate_line(n):
 
         c.create_text(20+i*30, 125, text=i, 
                     justify=CENTER, font="Verdana 20")
+
+
 
 coordinate_line(11)
 expression(1,3)

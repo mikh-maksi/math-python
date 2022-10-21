@@ -235,6 +235,5 @@ add_exp.coordinate_line()
 add_exp.expression(0,4)
 ```
 
+<img src = "img/numbers12.gif">
 
-## Операції з натуральними числами.
-Давайте розберемо 
